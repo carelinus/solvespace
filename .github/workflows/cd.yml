@@ -152,7 +152,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download All Workflow Artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
     - name: Get Release Upload URL
       id: get_upload_url
       env:
